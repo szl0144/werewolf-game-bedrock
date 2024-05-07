@@ -5,10 +5,11 @@ import whisper
 import io
 from pydub import AudioSegment
 from pydub.playback import play
-from openai import OpenAI
 from pyannote.audio import Pipeline
 from pyannote_whisper.utils import diarize_text
 from pyannote.audio import Audio
+import whisper_asr
+
 
 
 def pyannote_whisper():
@@ -24,20 +25,6 @@ def pyannote_whisper():
         line = f'{seg.start:.2f} {seg.end:.2f} {spk} {sent}'
         whisper_output_str += line + "\n"
     return whisper_output_str
-        
-
-def open_ai_whisper():
-    client = OpenAI()
-    audio_file= open("Audio.mp3", "rb")
-    transcription = client.audio.transcriptions.create(
-    model="whisper-1", 
-    language = "zh",
-    prompt = "这里会出现的地点名词有主院、瓷器房、前庭、码头、酒窖、棋房、凉亭、灶房、后花园、正房、茶室、书画房、东厢房",
-    file=audio_file,
-    response_format = "text"
-    )
-
-    return transcription 
 
 
 def bedrock_invoke(base64_string,prompt):
@@ -98,7 +85,7 @@ if __name__ == "__main__":
     with open(image_path, 'rb') as image_file:
         image_data = image_file.read()
         base64_string = base64.b64encode(image_data).decode('utf-8')
-        
+    #result = openai_whisper.open_ai_whisper()    
     results = bedrock_invoke(base64_string,prompt)
     stream_base64 = aws_polly_text_to_speech(results)
     audio = AudioSegment.from_file(io.BytesIO(stream_base64), format="mp3")
