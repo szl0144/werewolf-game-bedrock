@@ -14,7 +14,7 @@ This Python-based AI Chatbot Assistant helps players analyze in-game conversatio
 ![architecture](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/b7fe97fc-71e1-494e-adff-dad105ea88ff)
 
 
-
+## Prediction Result
 Claude Opus successfully predicted the ID of 2 werewolves in the game based on the in-game conversations.
 The Output of the Claude 3 Opus.
 ![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/5325b737-bfec-4cde-a364-9908bdacb568)
