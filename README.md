@@ -1,9 +1,9 @@
 # Playing Werewolf with Claude 3 Opus
-This Python-based AI Chatbot Assistant helps players analyze in-game conversations to identify potential werewolves in the popular mobile game "DreamStar." By processing and interpreting player dialogues during Werewolf games, the chatbot Claude 3 Opus on Amazon Bedrock to highlight suspicious behaviors and suggest possible werewolves. This tool can be a valuable asset for players looking to enhance their strategic play in Werewolf games.
+This Python-based AI Chatbot Assistant helps players analyze in-game conversations to identify potential werewolves in the popular mobile game "DreamStar." By processing and interpreting player dialogues during Werewolf games, the chatbot utilizes the Claude 3 Opus on Amazon Bedrock to highlight suspicious behaviors and suggest possible werewolves. This tool can be a valuable asset for players looking to enhance their strategic play in Werewolf games.
 ![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/dace61fc-5093-47f0-a290-747243d9e7f9)
 
-
 ## Cloud Architecture 
+
 ### Phase 1
 ![Architecture2](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/e39df7a9-038b-4928-a06f-2aee09c0e6fb)
 
