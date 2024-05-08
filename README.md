@@ -1,11 +1,15 @@
 # Playing Werewolf with Claude 3 Opus
-
+Werewolf games AI Chatbot Assistant
 ![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/dace61fc-5093-47f0-a290-747243d9e7f9)
 
 
-Cloud Architecture for the Werewolf games AI Chatbot Assistant
-![architecture](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/44cf76fe-c601-45e9-b0af-ac3cb7a90789)
+## Cloud Architecture 
+### Phase 1
+![Architecture2](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/e39df7a9-038b-4928-a06f-2aee09c0e6fb)
 
+
+### Phase 2
+![architecture](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/b7fe97fc-71e1-494e-adff-dad105ea88ff)
 
 
 
@@ -14,7 +18,8 @@ The Output of the Claude 3 Opus.
 ![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/5325b737-bfec-4cde-a364-9908bdacb568)
 
 The real identities of each player in the game.
-![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/fd022543-31e8-4f59-b2bc-0c9d7d4e8670)
+![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/a5d3fd2e-4941-47da-824d-123ccc2dc53d)
+
 
 
 
