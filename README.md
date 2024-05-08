@@ -4,7 +4,8 @@
 
 
 Cloud Architecture for the Werewolf games AI Chatbot Assistant
-![architecture](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/ad9bde60-0fd4-4a90-933b-8a37908e2008)
+![architecture](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/44cf76fe-c601-45e9-b0af-ac3cb7a90789)
+
 
 
 
