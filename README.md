@@ -1,6 +1,7 @@
 # Playing Werewolf with Claude 3 Opus
 
-<img width="1245" alt="image" src="https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/b40c1b11-fd5c-4d1c-a6cf-1dd5b08125ff">
+![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/dace61fc-5093-47f0-a290-747243d9e7f9)
+
 
 Cloud Architecture for the Werewolf games AI Chatbot Assistant
 ![architecture](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/ad9bde60-0fd4-4a90-933b-8a37908e2008)
