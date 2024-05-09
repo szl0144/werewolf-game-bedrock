@@ -3,5 +3,8 @@ numpy
 torch
 torchvision
 openai-whisper
+openai
 pyannote.audio
 soundfile
+speechbrain==0.5.16 
+boto3
