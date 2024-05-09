@@ -18,11 +18,11 @@ This Python-based AI Chatbot Assistant helps players analyze in-game conversatio
 ## Installation
 FFMPEG is needed as prerequisites to install the requirements
 
-#on Ubuntu or Debian
+<!-- # on Ubuntu or Debian -->
 ```
 sudo apt update && sudo apt install ffmpeg
 ```
-`# on Arch Linux`
+# on Arch Linux
 ```
 sudo pacman -S ffmpeg
 ```
