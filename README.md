@@ -21,7 +21,7 @@ This Python-based AI Chatbot Assistant helps players analyze in-game conversatio
 4. Downgrade setuptools to 59.5.0
 5. Downgrade speechbrain to 0.5.16 
 
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 ## Prediction Result
 Claude Opus successfully predicted the ID of 2 werewolves in the game based on the in-game conversations.
