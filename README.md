@@ -38,7 +38,7 @@ on Windows using Scoop (https://scoop.sh/)
 ```
 scoop install ffmpeg
 ```
-
+The following dependencies are needed
 1. Install whisper.
 2. Install boto3.
 3. Install pyannote.audio.
