@@ -19,35 +19,23 @@ This Python-based AI Chatbot Assistant helps players analyze in-game conversatio
 FFMPEG is needed as prerequisites to install the requirements
 
 on Ubuntu or Debian
-```
 sudo apt update && sudo apt install ffmpeg
-```
 on Arch Linux
-```
 sudo pacman -S ffmpeg
-```
 on MacOS using Homebrew (https://brew.sh/)
-```
 brew install ffmpeg
-```
 on Windows using Chocolatey (https://chocolatey.org/)
-```
 choco install ffmpeg
-```
 on Windows using Scoop (https://scoop.sh/)
-```
 scoop install ffmpeg
-```
 The following dependencies are needed
-1. Install whisper.
-2. Install boto3.
-3. Install pyannote.audio.
+1. Install whisper
+2. Install boto3
+3. Install pyannote.audio
 4. Downgrade setuptools to 59.5.0
 5. Downgrade speechbrain to 0.5.16 
 
-```
 pip install -r requirements.txt
-```
 
 ## Prediction Result
 Claude Opus successfully predicted the ID of 2 werewolves in the game based on the in-game conversations.
@@ -56,9 +44,3 @@ The Output of the Claude 3 Opus.
 
 The real identities of each player in the game.
 ![image](https://github.com/szl0144/werewolf-game-bedrock/assets/40918217/a5d3fd2e-4941-47da-824d-123ccc2dc53d)
-
-
-
-
-
-
